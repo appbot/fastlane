@@ -17,14 +17,6 @@ Style/ClassCheck:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-# This doesn't work with older versions of Ruby (pre 2.4.0)
-Style/SafeNavigation:
-  Enabled: false
-
-# This doesn't work with older versions of Ruby (pre 2.4.0)
-Performance/RegexpMatch:
-  Enabled: false
-
 # This suggests use of `tr` instead of `gsub`. While this might be more performant,
 # these methods are not at all interchangeable, and behave very differently. This can
 # lead to people making the substitution without considering the differences.
@@ -120,10 +112,6 @@ Style/DoubleNegation:
 
 # Prevent to replace [] into %i
 Style/SymbolArray:
-  Enabled: false
-
-# We still support Ruby 2.0.0
-Layout/IndentHeredoc:
   Enabled: false
 
 # This cop would not work fine with rspec
